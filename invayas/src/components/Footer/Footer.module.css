@@ -1,0 +1,188 @@
+.mainBox {
+  background-color:#090b3e;
+  color: white;
+  padding: 32px 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+.topBox {
+  max-width: 2000px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+@media (min-width: 450px) {
+  .topBox {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .topRight {
+    align-items: flex-end;
+  }
+}  
+@media (min-width: 450px) {
+  .topBox {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.heading {
+  font-family: var(--secondary-font);
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fbf7f7;
+  margin-bottom: 25px;
+}
+.headingt {
+  margin-top: 24px;
+ font-weight: 700px;
+  font-size: 17px;
+  font-style: bold;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.headingt:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+  color: white;
+}
+.headingm {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 24px;
+  font-style: bold;
+  font-weight: 100px;
+}
+.topRight {
+  display: flex;
+  flex-direction: column;
+}
+.topIconBox {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  max-width: 200px;
+  cursor: pointer;
+}
+.icon {
+  margin-right: 24px;
+  margin: 7px;
+}
+.fb:hover{
+  color: yellow;
+}
+.tw:hover{
+  color: rgb(138, 200, 255);
+}
+.yb:hover{
+  color: rgb(255, 38, 0);
+}
+.li:hover{
+  color: rgb(43, 103, 214);
+}
+.lineBreak {
+  background-color: white;
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+.bottomBox {
+  color: white;
+  max-width: 2000px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+@media (min-width: 600px) {
+  .bottomBox {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 600px) {
+  .bottomBox {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.linkItem {
+  margin-top: 30px;
+  color: #fbfafa;
+  font-size: 15px;
+  font-weight: 620;
+  line-height: 1.5;
+   text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.linkItem:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+  color: white;
+}
+.a:link {
+  color: white;
+text-align: center;
+}
+.appstore {
+  height: 46px;
+  width: 240px;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffff;
+  font-size: 13px;
+  background-color: rgb(34, 34, 34);
+  text-decoration: none;
+  margin-top: 12px;
+  border: 1px solid rgba(216, 216, 216, 0.6);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.appstore:hover {
+  background-color: rgb(0, 0, 0);
+}
+.appstore:focus {
+  outline: none;
+}
+.appstoreText{
+  padding: 0px;
+  margin: 0px;
+  margin-left: 12px;
+}
+.link {
+  margin-top: 16px;
+  font-size: 11px;
+  cursor: pointer;
+  color: #ffff;
+}
+.link:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 255, 255);
+  color: #ffff;
+}
+.bottomSubBox{
+  display: flex;
+  flex-direction: column;
+}
+.copy{
+
+  text-align: center;
+
+  margin-top: auto;
+  color:#fbf7f7;
+  padding: 20px;
+}
+.linebox{
+
+  height: 1px;
+  background-color: #fbf7f7;
+}
+.inva{
+  color: #fdc003;
+text-decoration: none;
+font-size: 16px;
+font-weight: 600;
+cursor: pointer;
+}
+.inva:hover{
+  color: #fdc003;
+}
